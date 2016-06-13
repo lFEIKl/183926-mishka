@@ -14,22 +14,22 @@
 		</div>
 		<nav class="main-nav  main-nav--closed  main-nav--nojs">
 			<button class="main-nav__toogle" type="button">Открыть меню</button>
-		</nav>
-		<div class="main-nav__wrapper">
-			<ul class="main-nav__items">
-				<li class="main-nav__catalog"><a href="">Каталог товаров</a></li>
-				<li class="main-nav__custom"><a href="">Вязание на заказ</a></li>
-				<li class="main-nav__search">
-					<a href=""><img src="http://placehold.it/150x100" alt="Поиск">Поиск по сайту</a></li>
-				<li class="main-nav__cart">
-					<a href=""><img src="http://placehold.it/150x100" alt="Корзина">Корзина: пока пуста</a></li>
-			</ul>
-		</div>
+			<div class="main-nav__wrapper">
+				<ul class="main-nav__list">
+					<li class="main-nav__item"><a href="">Каталог товаров</a></li>
+					<li class="main-nav__item"><a href="">Вязание на заказ</a></li>
+					<li class="main-nav__item">
+						<a href="">Поиск по сайту</a></li>
+					<li class="main-nav__item">
+						<a href="">Корзина: пока пуста</a></li>
+				</ul>
+			</div>
+		</nav>	
 	</header>
 
-	<section class="page-title  page-title--background">
+	<div class="page-title  page-title--background">
 		<h2>Вязание на заказ</h2>
-	</section>
+	</div>
 
 	<section class="form-container">
 		<p>Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа, и мы свяжемся с вами, чтобы уточнить детали.</p>
@@ -38,7 +38,6 @@
 				<b class="form-container__title">Тип</b>
 				<hr>
 				<label><input type="radio" name="item-type" value="Аксессуар для интерьера" checked><b>Аксессуар для интерьера</b></label>
-				<br>
 				<label><input type="radio" name="item-type" value="Детская игрушка"><b>Детская игрушка</b></label>
 			</div>
 			<div class="form-container__item">
@@ -79,17 +78,16 @@
 				<hr>
 				<textarea name="additionally" rows="5" cols="20" placeholder="Опишите все ваши пожелания к заказу"></textarea>
 			</div>
-			<button class="button">Отправить заказ</button>
+			<button class="button" type="button">Отправить заказ</button>
 		</form>
 	</section>
 
-	<footer class="page-footer  page-footer__background">
-		<div class="page-footer__social_networks">
-			<a href=""><img src="http://placehold.it/150x100" alt="Instagram"></a>
-			<a href=""><img src="http://placehold.it/150x100" alt="Facebook"></a>
-			<a href=""><img src="http://placehold.it/150x100" alt="Twitter"></a>
+	<footer class="page-footer  page-footer--background">
+		<div class="social_networks">
+			<a href="">Instagram</a>
+			<a href="">Facebook</a>
+			<a href="">Twitter</a>
 		</div>
-		<hr>
 		<div class="page-footer">
 			<b>Разработано</b>
 			<a href="http://htmlacademy.ru"><img src="http://placehold.it/150x100" alt="HTMLAcademy"></a>
