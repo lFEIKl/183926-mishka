@@ -1,0 +1,29 @@
+.popular-items {
+
+  width: 260px;
+  margin: 0 auto;
+
+  &__subtitle {
+    color: #63d1bb;
+  }
+
+  &__cell {
+    display: block;
+    width: 260px;
+    min-height: 40px;
+    border-bottom: 1px solid #ececec;
+  }
+
+  &__field {
+      width: 98px;
+  }
+
+  &__img {
+    margin-top: 25px;
+  }
+
+  &__price {
+
+  }
+
+}

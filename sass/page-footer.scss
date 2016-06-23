@@ -1,0 +1,20 @@
+.page-footer {
+
+  width: 320px;
+  height: 160px - 24px - 30px; /*вычитаем padding page-footer &__copyright*/
+  margin: 0 auto;
+  padding: 24px 0;
+  background: #fafafa;
+
+  &__copyright {
+    display: block;
+    width: 220px;
+    min-height: 43px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 40px;
+    border-top: 1px solid #e5e5e5;
+    background: url(../img/logo-htmlacademy.svg) no-repeat 75% 50%;
+  }
+
+}
