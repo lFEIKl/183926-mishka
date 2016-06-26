@@ -1,20 +1,23 @@
 .page-footer {
 
   width: 320px;
-  height: 160px - 24px - 30px; /*вычитаем padding page-footer &__copyright*/
+  min-height: 160px - 24px - 30px; /*вычитаем padding page-footer page-footer __copyright*/
   margin: 0 auto;
-  padding: 24px 0;
+  padding-top: 24px;
   background: #fafafa;
+}
 
-  &__copyright {
-    display: block;
-    width: 220px;
-    min-height: 43px;
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-left: 40px;
-    border-top: 1px solid #e5e5e5;
-    background: url(../img/logo-htmlacademy.svg) no-repeat 75% 50%;
-  }
-
+.page-footer__copyright {
+  display: block;
+  width: 220px;
+  min-height: 43px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-left: 40px;
+  text-decoration: none;
+  border-top: 1px solid #e5e5e5;
+  background: url(../img/logo-htmlacademy.svg) no-repeat 75% 50%;
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: 18px;
+  color: #000;
 }

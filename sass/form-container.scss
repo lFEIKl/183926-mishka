@@ -2,4 +2,34 @@
 
   width: 320px;
   margin: 0 auto;
+  margin-bottom: 58px;
+}
+
+.form-container__description {
+  font-size: $fs-description;
+  line-height: 24px;
+}
+
+.form-container__title {
+  font-size: $fs-base;
+  font-weight: bold;
+  color: $base-color;
+}
+
+.form-container__label {
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: $fs-base;
+  font-weight: bold;
+}
+
+input::-webkit-input-placeholder {
+  font-size: $fs-base;
+  font-weight: normal;
+  color:#d2d2d2;
+}
+
+textarea::-webkit-input-placeholder {
+  font-size: $fs-base;
+  font-weight: normal;
+  color:#d2d2d2;
 }

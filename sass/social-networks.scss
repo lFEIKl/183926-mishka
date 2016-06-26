@@ -1,5 +1,5 @@
 .social-networks {
-  width: 62px + 55px + 63px; /*складываем ширины __item*/
+  width: 62px + 55px + 63px; /*складываем ширины social-networks__item*/
   min-height: 80px - 24px; /*вычитаем padding page-footer*/
   margin:  0 auto;
 
@@ -7,7 +7,7 @@
     display: inline-block;
     height: 28px;
 
-    &--instagram {margin-right: 0;
+    &--instagram {
       width: 62px;
       background: url("../img/icon-insta.svg") no-repeat 50% 50%;
     }

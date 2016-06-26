@@ -8,6 +8,7 @@
 
   <title>MiSHKA</title>
 
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
@@ -21,25 +22,20 @@
       <a href=""><img class="page-header__img-logo" src="img/logo-mobile.svg" width="90" height="35" alt="MiSHKA"></a>
     </div>
 
-<!--main-nav-->
+    <!--main-nav-->
     <nav class="main-nav  main-nav--closed  main-nav--nojs">
-
       <button class="main-nav__toogle" type="button">Открыть меню</button>
-
       <ul class="main-nav__list">
-        <li class="main-nav__item"><a href="">Каталог товаров</a></li>
-        <li class="main-nav__item"><a href="">Вязание на заказ</a></li>
-        <li class="main-nav__item  main-nav__item--search"><a href="">Поиск по сайту</a></li>
-        <li class="main-nav__item  main-nav__item--cart"><a href="">Корзина: пока пуста</a></li>
+        <li><a href="" class="main-nav__item">Каталог товаров</a></li>
+        <li><a href="" class="main-nav__item">Вязание на заказ</a></li>
+        <li><a href="" class="main-nav__item main-nav__item--search">Поиск по сайту</a></li>
+        <li><a href="" class="main-nav__item main-nav__item--cart">Корзина: пока пуста</a></li>
       </ul>
-
     </nav>
     <!--end main-nav-->
 
     <div class="page-header__menu">
-
       <h2 class="page-header__title">Каталог товаров</h2>
-
     </div>
 
   </header>
@@ -50,39 +46,30 @@
 
 <!--product-->
     <div class="product">
-
       <img class="product__img" src="img/photo-1-mobile@1x.jpg" width="260" height="195" alt="Зайчик-попрыгайчик">
-
-      <b class="product__title">Зайчик-попрыгайчик</b>
-
-      <p class="product__properties">Рост 30 см, вес 200 г</p>
-
-      <a class="product__price" href="">1 200 руб.</a>
-
+      <div class="product__wrapper-description">
+        <b class="product__title">Зайчик-попрыгайчик</b>
+        <p class="product__properties">Рост 30 см, вес 200 г</p>
+        <a class="product__price" href="">1 200 руб.</a>
+      </div>
     </div>
 
     <div class="product">
-
       <img class="product__img" src="img/photo-2-mobile@1x.jpg" width="260" height="195" alt="Корзинка для белья">
-
-      <b class="product__title">Корзинка для белья</b>
-
-      <p class="product__properties">Диаметр 15 см, высота 10 см</p>
-
-      <a class="product__price" href="">690 руб.</a>
-
+      <div class="product__wrapper-description">
+        <b class="product__title">Корзинка для белья</b>
+        <p class="product__properties">Диаметр 15 см, высота 10 см</p>
+        <a class="product__price" href="">690 руб.</a>
+      </div>
     </div>
 
     <div class="product">
-
       <img class="product__img" src="img/photo-3-mobile@1x.jpg" width="260" height="195" alt="Большая корзинка для игрушек">
-
-      <b class="product__title">Большая корзинка для игрушек</b>
-
-      <p class="product__properties">Диаметр 30 см, высота 30см</p>
-
-      <a class="product__price" href="">1 500 руб.</a>
-
+      <div class="product__wrapper-description">
+        <b class="product__title">Большая корзинка для игрушек</b>
+        <p class="product__properties">Диаметр 30 см, высота 30см</p>
+        <a class="product__price" href="">1 500 руб.</a>
+      </div>
     </div>
 <!--end product-->
 
@@ -91,15 +78,10 @@
 
 <!--video-->
   <section class="video">
-
     <b class="video__title">Процесс производства</b>
-
     <img class="video__img" src="img/video-mobile@1x.jpg" width="260" height="150" alt="Видео">
-
     <p class="video__description">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
-
     <button class="button" type="button">Сделать заказ</button>
-
   </section>
 <!--end video-->
 
@@ -115,7 +97,6 @@
     <!--end social-networks-->
 
     <a class="page-footer__copyright" href="https://htmlacademy.ru/">Разработано</a>
-
   </footer>
 <!--end page-footer-->
 

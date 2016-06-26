@@ -2,29 +2,16 @@
  font-family: "Open Sans";
  font-style: normal;
  font-weight: 400;
- scr: local("Open Sans"),
-   url("../fonts/opensans.woff") format("woff");
-}
-@font-face {
- font-family: "Open Sans";
- font-style: normal;
- font-weight: 400;
- scr: local("Open Sans"),
+ srс: local("Open Sans"), local("OpenSans"),
+   url("../fonts/opensans.woff") format("woff"),
    url("../fonts/opensans.woff2") format("woff2");
 }
 
 @font-face {
- font-family: "Open Sans Bold";
+ font-family: "Open Sans";
  font-style: bold;
  font-weight: 700;
- scr: local("Open Sans"),
-   url("../fonts/opensansbold.woff") format("woff");
-}
-
-@font-face {
- font-family: "Open Sans Bold";
- font-style: bold;
- font-weight: 700;
- scr: local("Open Sans"),
+ srс: local("Open Sans"), local("OpenSans"),
+   url("../fonts/opensansbold.woff") format("woff"),
    url("../fonts/opensansbold.woff2") format("woff2");
 }
