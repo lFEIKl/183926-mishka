@@ -1,0 +1,42 @@
+@import "../../variables.scss";
+
+.product {
+  width: 260px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: 1px solid #ececec;
+}
+
+.product__img {
+  width: 260px;
+  height: 195px;
+}
+
+.product__wrapper-description {
+    margin-left: 27px;
+}
+
+.product__title {
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: $fs-base;
+  line-height: 24px;
+}
+
+.product__properties {
+  font-size: $fs-description;
+  color: $font-color;
+}
+
+.product__price {
+  display: block;
+  width: 204px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  background: url("../img/icon-cart.svg") no-repeat 90% 50%;
+  border-top: 1px solid #ececec;
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: $fs-description;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}

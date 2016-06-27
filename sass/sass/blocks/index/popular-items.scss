@@ -1,0 +1,57 @@
+.popular-items {
+
+  width: 260px;
+  margin: 0 auto;
+}
+
+.popular-items__title {
+  font-size: $fs-title;
+  font-family: "Verdana", "Arial", sans-serif;
+  line-height: 30px;
+}
+
+.popular-items__subtitle {
+  color: $decor-color;
+  font-size: $fs-base;
+}
+
+.popular-items__description {
+  font-size: $fs-description;
+  line-height: 24px;
+  color: $font-color;
+}
+
+.popular-items__cell {
+  display: block;
+  width: 260px;
+  min-height: 40px;
+  border-bottom: 1px solid #ececec;
+}
+
+.popular-items__field {
+  width: 98px;
+  font-size: $fs-description;
+  line-height: 20px;
+  color: $font-color;
+}
+
+.popular-items__value {
+  font-size: $fs-description;
+  line-height: 20px;
+  color: $font-color;
+}
+
+.popular-items__img {
+  margin-top: 25px;
+}
+
+.popular-items__price {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: $fs-base;
+  line-height: 24px;
+  color: $font-color;
+  text-align: center;
+}

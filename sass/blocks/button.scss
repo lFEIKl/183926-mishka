@@ -1,0 +1,15 @@
+@import "../variables.scss";
+
+.button {
+  display: block;
+  width: 260px - 4px;
+  min-height: 52px - 4px;
+  margin: 0 auto;
+  color: #444;
+  text-transform: uppercase;
+  background-color: $bg-color;
+  border: 2px solid #444;
+  font-size: $fs-base;
+  font-weight: bold;
+
+}

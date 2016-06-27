@@ -1,0 +1,36 @@
+@import "../variables.scss";
+
+ .main-nav__toogle {
+    background-color: $bg-color;
+  }
+
+  .main-nav__list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .main-nav__item {
+
+      display: block;
+      padding: 34px 0;
+      border-bottom: 1px solid #ececec;
+      font-family: "Verdana", "Arial", sans-serif;
+      font-size: $fs-base;
+      color: #000;
+      font-weight: bold;
+      line-height: 24px;
+      text-align: center;
+      text-decoration: none;
+
+    &--search {
+      background: url("../img/icon-search.svg") no-repeat 10% 50%;
+    }
+
+    &--cart {
+      background: url("../img/icon-cart.svg") no-repeat 10% 50%;
+    }
+}
+
+

@@ -1,0 +1,31 @@
+@import "../variables.scss";
+
+.social-networks {
+  width: 62px + 55px + 63px; /*складываем ширины social-networks__item*/
+  min-height: 80px - 24px; /*вычитаем padding page-footer*/
+  margin:  0 auto;
+
+  &__item {
+    display: inline-block;
+    height: 28px;
+
+    &--instagram {
+      width: 62px;
+      background: url("../img/icon-insta.svg") no-repeat 50% 50%;
+    }
+
+    &--facebook {
+      margin-left: -5px;
+      width: 55px;
+      background: url("../img/icon-fb.svg") no-repeat 50% 50%;
+    }
+
+    &--twitter {
+      margin-left: -5px;
+      width: 63px;
+      background: url("../img/icon-twitter.svg") no-repeat 50% 50%;
+    }
+
+  }
+
+}
