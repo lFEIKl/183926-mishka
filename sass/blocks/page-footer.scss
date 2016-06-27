@@ -1,9 +1,7 @@
-@import "../variables.scss";
-
 .page-footer {
 
   width: 320px;
-  min-height: 160px - 24px - 30px; /*вычитаем padding page-footer page-footer __copyright*/
+  min-height: 160px; /*вычитаем padding page-footer page-footer __copyright*/
   margin: 0 auto;
   padding-top: 24px;
   background: #fafafa;

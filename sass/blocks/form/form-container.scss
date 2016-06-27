@@ -22,13 +22,13 @@
   font-weight: bold;
 }
 
-input::-webkit-input-placeholder {
+input::placeholder {
   font-size: $fs-base;
   font-weight: normal;
   color:#d2d2d2;
 }
 
-textarea::-webkit-input-placeholder {
+textarea::placeholder {
   font-size: $fs-base;
   font-weight: normal;
   color:#d2d2d2;
