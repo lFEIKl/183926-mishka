@@ -1,7 +1,7 @@
 .social-networks {
   width: 62px + 55px + 63px; /*складываем ширины social-networks__item*/
-  min-height: 80px - 24px; /*вычитаем padding page-footer*/
   margin:  0 auto;
+  padding: 24px 0;
 
   &__item {
     display: inline-block;

@@ -1,23 +1,19 @@
 .page-footer {
 
   width: 320px;
-  min-height: 160px; /*вычитаем padding page-footer page-footer __copyright*/
   margin: 0 auto;
-  padding-top: 24px;
   background: #fafafa;
 }
 
 .page-footer__copyright {
   display: block;
   width: 220px;
-  min-height: 43px;
   margin: 0 auto;
-  padding-top: 30px;
-  padding-left: 40px;
-  text-decoration: none;
+  padding: 22px 0 22px 0px;
   border-top: 1px solid #e5e5e5;
   background: url(../img/logo-htmlacademy.svg) no-repeat 75% 50%;
   font-family: "Verdana", "Arial", sans-serif;
   font-size: 18px;
   color: #000;
+  text-decoration: none;
 }
